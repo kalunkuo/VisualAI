@@ -8,7 +8,6 @@ A deep learning-powered image classification app that identifies wound types fro
 
 - ✅ Classifies wounds into 10 types:
   - Abrasions, Bruises, Burns, Cuts, Diabetic Wounds, Lacerations, Normal, Pressure Wounds, Surgical Wounds, Venous Wounds
-  - Kaggle: https://www.kaggle.com/datasets/ibrahimfateen/wound-classification/data
 - 🧠 Uses **ResNet50 + transfer learning**
 - ⚡ Fast and lightweight with **Streamlit**
 - 📦 Easy to retrain or integrate into other workflows
@@ -29,7 +28,7 @@ A deep learning-powered image classification app that identifies wound types fro
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/wound-detection-ai.git
+   git clone https://github.com/kalunkuo/wound-detection-ai.git
    cd wound-detection-ai
    
 2. Install dependencies:
@@ -37,7 +36,7 @@ A deep learning-powered image classification app that identifies wound types fro
    pip install -r requirements.txt
 
 3. Place your dataset in the dataset/ folder (each wound type should be a folder with images inside).
-
+  - Kaggle: https://www.kaggle.com/datasets/ibrahimfateen/wound-classification/data
 4. Train the model:
    ```bash
    python train.py
