@@ -48,6 +48,7 @@ for epoch in range(5):  # Can increase
 
 # Save model
 save_path = os.path.join(os.path.dirname(__file__), 'model_weights.pth')
-# torch.save(model, 'model.pth')
-torch.save(model.state_dict(), 'model_weights.pth')
+print(save_path)
+torch.save(model, 'model.pth')
+# torch.save(model.state_dict(), 'model_weights.pth')
 print(f"✅ Model weights saved to {save_path}")
